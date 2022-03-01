@@ -3549,7 +3549,7 @@ AutoFarm:Toggle("Start Farm Level", _G.AutoFarmLevel, function(vu)
 	end
 end)
 
-AutoFarm:Toggle("Fast Attack", true, function(value)
+AutoFarm:Toggle("Fast Attack", false, function(value)
     _G.FastAttk = value
 end)
 
