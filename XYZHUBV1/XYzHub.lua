@@ -3549,16 +3549,6 @@ AutoFarm:Toggle("Start Farm Level", _G.AutoFarmLevel, function(vu)
 	end
 end)
 
-
-
-AutoFarm:Toggle("Auto Superhuman Farm", _G.AutoSuperhuman, function(vu)
-    Superhuman = vu
-end)
-
-AutoFarm:Toggle("Auto Fully Farm Superhuman", _G.FullyAutoSuperhuman, function(vu)
-    AutoFullySuperhuman = vu
-end)
-
 AutoFarm:Toggle("Fast Attack", true, function(value)
     _G.FastAttk = value
 end)
